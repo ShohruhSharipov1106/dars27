@@ -1,0 +1,191 @@
+name: dars27
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_signin_button: ^2.0.0
+  sign_button: ^2.0.1
+  http: ^0.13.4
+  flag: ^5.0.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  awesome_dialog: ^2.1.1
+  qr_code_scanner: 
+  url_launcher: ^6.0.12
+  pull_to_refresh: ^2.0.0
+  palette_generator: ^0.3.1
+  rflutter_alert: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images/Order_Your_Fav_Foods/
+     - assets/images/car_shop/
+     - assets/data/
+     - assets/images/
+     - assets/images/Karate-PNG-images-Martial-Arts-PNGs-15png.png
+     - assets/images/PNG_images_PNGs_Run_Running_Runner_Sprint_Sprinting_Training_Jog.png
+     - assets/images/PNG-images-NBA-Players-43png.png
+     - assets/images/PNG-images-Tennis-Player-7png.png
+     - assets/images/Swimming-PNG-images-Swimmer-transparent-PNGs-6png.png
+     - assets/images/679-6796657_football-player-png-soccer-player-photo-stock-transparentpng.png
+     - assets/images/80-805263_soccer-player-png-player-football-png-transparent-png.png
+     - assets/images/brian-lawson-RBy6FEQ2DIk-unsplash.jpg
+     - assets/images/victor-freitas-vqDAUejnwKw-unsplash.jpg
+     - assets/images/festival.jpg
+     - assets/images/history.jpg
+     - assets/images/plants.jpg
+     - assets/images/cooking.jpg
+     - assets/images/music_festival.jpg
+     - assets/images/brain.jpg
+     - assets/images/Data_analysis.jpg
+     - assets/images/english_communication.jpg
+     - assets/images/Python.jpg
+     - assets/images/Robotics.jpg
+     - assets/images/SEO.jpg
+     - assets/images/thinking.jpg
+     - assets/images/farmaceutical.jpg
+     - assets/images/CyberSecurity.jpg
+     - assets/images/French.jpg
+     - assets/images/restaunts.jpg
+     - assets/images/foods/1200px-Flag_of_Brazil.svg.png
+     - assets/images/foods/2560px-Flag_of_Mexico.svg.png
+     - assets/images/foods/baked_lasagne_italia.jpg
+     - assets/images/foods/flag_italia.jpg
+     - assets/images/foods/flag_japan.png
+     - assets/images/foods/flag_of_Egypt.png
+     - assets/images/foods/minestrone_italia.jpg
+     - assets/images/foods/miso_japan.jpg
+     - assets/images/foods/natto_japan.jpg
+     - assets/images/foods/pesto_italia.jpg
+     - assets/images/foods/pizza_italia.jpg
+     - assets/images/foods/sashimi_japan.jpg
+     - assets/images/foods/seaweed_japan.jpg
+     - assets/images/foods/Shiitake-Mushroom_japan.jpg
+     - assets/images/foods/Spaghetti_carbonara_italia.png
+     - assets/images/foods/chilaquiles-mexica.jpg
+     - assets/images/foods/coxinha_brazil.jpg
+     - assets/images/foods/dorilocos-mexica.jpg
+     - assets/images/foods/escondidinho_brazil.jpg
+     - assets/images/foods/Falafel_egypt.jpg
+     - assets/images/foods/farofa_brazil.jpg
+     - assets/images/foods/Full_medames_egypt.png
+     - assets/images/foods/gorditas-mexica.jpg
+     - assets/images/foods/Kebab_and_Kofta_egypt.png
+     - assets/images/foods/moqueca_brazil.jpg
+     - assets/images/foods/picanha_brazil.jpg
+     - assets/images/foods/Pigeon_egypt.png
+     - assets/images/foods/quesadillas-mexico.jpg
+     - assets/images/foods/Shawarma_egypt.png
+     - assets/images/foods/tlayudas-mexica.jpg
+     - assets/images/foods/biryani_india.jpg
+     - assets/images/foods/boeuf-bourguignon-france.jpg
+     - assets/images/foods/cassoulet-france.jpg
+     - assets/images/foods/chuchvara_uzbekistan.jpg
+     - assets/images/foods/chutney_india.jpg
+     - assets/images/foods/croissants_france.jpg
+     - assets/images/foods/croque_monsieur_france.jpg
+     - assets/images/foods/dal_india.jpg
+     - assets/images/foods/dimlama_uzbekistan.jpg
+     - assets/images/foods/dolmas_uzbekistan.jpg
+     - assets/images/foods/flag_india.png
+     - assets/images/foods/Flag_of_France.png
+     - assets/images/foods/Flag_of_Portugal.png
+     - assets/images/foods/Flag_of_Turkey.png
+     - assets/images/foods/Flag_of_Uzbekistan.png
+     - assets/images/foods/jambon-beurre-france.jpg
+     - assets/images/foods/lagman_uzbekistan.jpg
+     - assets/images/foods/paneer_india.jpg
+     - assets/images/foods/plov_uzbekistan.jpg
+     - assets/images/foods/roti_india.jpg
+     - assets/images/foods/shurpa_uzbekistan.jpg
+     - assets/images/foods/Doner-Kebab_turkish.jpg
+     - assets/images/foods/bacalhu_portugal.jpg
+     - assets/images/foods/arroz-doce_portugal.jpg
+     - assets/images/foods/cataplana-de-marisco_portugal.jpg
+     - assets/images/foods/Iskender-Kebab_turkish.jpg
+     - assets/images/foods/Lahmacun_turkish.jpg
+     - assets/images/foods/Menemen_turkish.jpg
+     - assets/images/foods/pasteis-de-nata_portugal.jpg
+     - assets/images/foods/pide_turkish.jpg
+     - assets/images/foods/sardinhas-assadas_portugal.jpg
+     - assets/images/menprofil.jpg
+     - assets/images/select_coffee_cappucino.jpg
+     - assets/images/qiz.png
+     - assets/images/espresso.jpg
+     - assets/images/latte3.png
+     - assets/images/americano.png
+     - assets/images/yellow_chair/bed.png
+     - assets/images/yellow_chair/chair.png
+     - assets/images/yellow_chair/sofa.png
+     - assets/images/yellow_chair/table.png
+     - assets/images/yellow_chair/blue-custom.png
+     - assets/images/car_shop/
+     - assets/images/coffee_shop/
+
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

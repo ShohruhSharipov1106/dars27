@@ -1,0 +1,86 @@
+[
+    {
+        "car_name": "Mercedes",
+        "country": "Germany",
+        "price": "14500",
+        "color": "0xFF486845",
+        "year": 2021,
+        "photo": "https://source.unsplash.com/random/1",
+        "model": [
+            {
+                "model_nomi": "AMG",
+                "benzinmi": true
+            }
+        ]
+    },
+    {
+        "car_name": "BMW",
+        "country": "Germany",
+        "price": "15000",
+        "color": "0xFF568787",
+        "year": 2020,
+        "photo": "https://source.unsplash.com/random/2",
+        "model": [
+            {
+                "model_nomi": "X5",
+                "benzinmi": true
+            }
+        ]
+    },
+    {
+        "car_name": "Mercedes",
+        "country": "Germany",
+        "price": "14500",
+        "color": "0xFF486845",
+        "year": 2021,
+        "photo": "https://source.unsplash.com/random/1",
+        "model": [
+            {
+                "model_nomi": "AMG",
+                "benzinmi": true
+            }
+        ]
+    },
+    {
+        "car_name": "BMW",
+        "country": "Germany",
+        "price": "15000",
+        "color": "0xFF568787",
+        "year": 2020,
+        "photo": "https://source.unsplash.com/random/2",
+        "model": [
+            {
+                "model_nomi": "X5",
+                "benzinmi": true
+            }
+        ]
+    },
+    {
+        "car_name": "BMW",
+        "country": "Germany",
+        "price": "15000",
+        "color": "0xFF568787",
+        "year": 2020,
+        "photo": "https://source.unsplash.com/random/2",
+        "model": [
+            {
+                "model_nomi": "X5",
+                "benzinmi": true
+            }
+        ]
+    },
+    {
+        "car_name": "Mercedes",
+        "country": "Germany",
+        "price": "14500",
+        "color": "0xFF486845",
+        "year": 2021,
+        "photo": "https://source.unsplash.com/random/1",
+        "model": [
+            {
+                "model_nomi": "AMG",
+                "benzinmi": true
+            }
+        ]
+    }
+]
