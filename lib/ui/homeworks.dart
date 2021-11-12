@@ -2,6 +2,8 @@ import 'package:dars27/ui/HW10_31-dars(Fashion)/Fashion.dart';
 import 'package:dars27/ui/HW11_10-dars_Foods/country_foods/Foods.dart';
 import 'package:dars27/ui/HW13_35-dars(TicTacToe)/tictactoe.dart';
 import 'package:dars27/ui/HW15_36-dars(Tapping_game)/Tapping_game.dart';
+import 'package:dars27/ui/HW16_18-dars(Order_Your_Fav_Foods)/Order_Fav_Foods1.dart';
+import 'package:dars27/ui/HW17_19-dars(Finding_number_game)/Find_number.dart';
 import 'package:dars27/ui/HW4_16-dars(Authorization)/authorization.dart';
 import 'package:dars27/ui/HW5_9-dars(Instagram_search)/instagram_search.dart';
 import 'package:dars27/ui/HW7_32-dars(Yellow_Chair)/yellow_chair_1_page.dart';
@@ -37,6 +39,8 @@ class _HomeworkState extends State<Homework> {
     TicTacToe(),
     CoffeeDelivery(),
     TappingGame(),
+    Order_Fav_Foods1(),
+    Find_Number(),
   ];
 
   List names = [
@@ -55,6 +59,8 @@ class _HomeworkState extends State<Homework> {
     "Tic Tac Toe",
     "Coffee Delivery",
     "Tapping Game",
+    "Order Your Favourite Food",
+    "Finding Number Game",
   ];
   @override
   Widget build(BuildContext context) {

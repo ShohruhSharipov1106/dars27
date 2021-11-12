@@ -1,3 +1,4 @@
+import 'package:dars27/ui/HW16_18-dars(Order_Your_Fav_Foods)/Order_Fav_Foods3.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
@@ -203,7 +204,14 @@ class Order_Fav_Foods2 extends StatelessWidget {
                       ),
                       SizedBox(width: 160.0),
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => Order_Fav_Foods3(),
+                            ),
+                          );
+                        },
                         icon: Icon(
                           Icons.format_list_bulleted_outlined,
                           color: Colors.grey,
@@ -779,22 +787,24 @@ class Order_Fav_Foods2 extends StatelessWidget {
               Icons.search_outlined,
             ),
             label: "Search",
-          ),BottomNavigationBarItem(
+          ),
+          BottomNavigationBarItem(
             icon: Icon(
               Icons.grid_view_outlined,
             ),
             label: "Category",
-          ),BottomNavigationBarItem(
+          ),
+          BottomNavigationBarItem(
             icon: Icon(
               Icons.shopping_basket_outlined,
             ),
             label: "History",
-          ),BottomNavigationBarItem(
-            icon: Icon(
-              Icons.inbox_outlined
-            ),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.inbox_outlined),
             label: "Inbox",
-          ),BottomNavigationBarItem(
+          ),
+          BottomNavigationBarItem(
             icon: Icon(
               Icons.person_outline,
             ),

@@ -1,3 +1,4 @@
+import 'package:dars27/ui/HW16_18-dars(Order_Your_Fav_Foods)/Order_Fav_Foods2.dart';
 import 'package:flutter/material.dart';
 
 class Order_Fav_Foods1 extends StatelessWidget {
@@ -54,7 +55,14 @@ class Order_Fav_Foods1 extends StatelessWidget {
                   CircleAvatar(
                     radius: 45.0,
                     child: IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Order_Fav_Foods2(),
+                          ),
+                        );
+                      },
                       icon: Icon(
                         Icons.arrow_forward_ios_outlined,
                         color: Colors.white,
